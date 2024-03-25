@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Student registration</title>
+                <link rel='stylesheet' href='student registration.css'>
+        </head>
+        <body>
+            <h2>Student Registration Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type = "text" id="name" name="name" required><br>
+
+                <label for="date of birth">Date of birth:</label>
+                <input type = "date" id="date of birth" name="date of birth" placeholder="Enter your date of birth" required><br>
+
+                <fieldset>
+                    <legend>Gender</legend>
+                <input type = "radio" id="male" name="gender" vale="male">
+                <label for="male">Male</label>
+                <input type = "radio" id="female" name="gender" vale="female">
+                <label for="female">Female</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Address information</legend>
+                    <input type = "text" id="address information" name="address information" placeholder="Enter your address" required>
+                    </fieldset>
+
+                <label for="telephone number">Telephone number:</label>
+                <input type = "telephone id="telephone number" name="telephone number" required><br>
+
+                <label for="email">Email address:</label>
+                <input type = "text" id="email" name="email" placeholder="Enter your email" required><br>
+
+                <label for="course">Course:</label>
+                <input type = "text" id="course" name="course" placeholder="Enter your course " required><br>
+
+                    <input type="submit" id="submit" name="submit" value="Register">
+                    <input type="reset" id="reset" name="reset" value="Cancel">
+            </form>
+        </body>
+</html>
